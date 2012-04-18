@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<!-- Serial port the reader is attached to -->
+	<!-- Value: COM1, COM2 ...; or /dev/tty* -->
+	<comPort>/dev/ttyUSB0</comPort>
+
+	<!-- Configuration file with the transponder model configuration -->
+	<epcTransponderModelsConfig>/props/EPCTransponderModels_default.xml</epcTransponderModelsConfig>
+
+	<!-- The IdTypes configuration file -->
+	<idTypesConfig>/props/IDTypes_default.xml</idTypesConfig>
+
+	<!-- Logical sources and the antennas associated to it. In the case of a 
+		reader with multiple antennas, 'antennas' could be a comma separated list -->
+	<logicalSource>
+		<name>Source_0</name>
+		<antennas>Ant0</antennas>
+	</logicalSource>
+</properties>
