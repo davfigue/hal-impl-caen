@@ -42,7 +42,7 @@ import com.caen.RFIDLibrary.CAENRFIDReader;
 import com.caen.RFIDLibrary.CAENRFIDTag;
 
 /**
- * @author David Figueroa Escalante
+ * @author David Figueroa
  * 
  */
 public class CaenUSBController implements CaenController {

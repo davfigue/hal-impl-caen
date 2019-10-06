@@ -17,7 +17,7 @@ import org.fosstrak.hal.impl.caen.CaenController;
 /**
  * 
  * @author Pablo Piñeiro Rey
- * @author David Figueroa Escalante
+ * @author David Figueroa
  */
 public class TCPRawSocketConnector {
 	

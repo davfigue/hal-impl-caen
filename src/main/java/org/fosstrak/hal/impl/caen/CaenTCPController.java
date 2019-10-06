@@ -38,7 +38,7 @@ import com.asisoft.caen.host.service.CaenRFIDProxy;
 import com.asisoft.caen.host.service.CaenRFIDProxyClient;
 
 /**
- * @author "David Figueroa Escalante"
+ * @author "David Figueroa"
  * 
  */
 public class CaenTCPController implements CaenController {
